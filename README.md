@@ -1,5 +1,5 @@
 pf semester project
-##Description of the project and what it does
+Description of the project and what it does
 1. User Authentication
 Users can log in with specific credentials and have different roles:
 Admin: Can manage the menu, view orders, and manage inventory.
