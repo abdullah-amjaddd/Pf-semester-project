@@ -1,0 +1,8 @@
+Burger 5.99 FastFood
+Pizza 8.99 FastFood
+Pasta 7.49 Italian
+Coffee 2.99 Beverage
+Tea 1.99 Beverage
+Fries 2.49 FastFood
+Steak 14.99 FineDining
+Soup 4.99 Appetizer
