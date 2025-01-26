@@ -20,7 +20,7 @@ Billing information is displayed directly on the console, including taxes and di
 Bill data is handled dynamically and could be saved to a file if extended.
 5.Exception Handling
 Handle error efficiently when the user entered incorrect username or password or when the admin search for the menu item that is not available generates a error message.
-6. File Handling
+   6.File Handling
 All user data, menu items, orders, and inventory are saved in text files to ensure persistence.
 The system reads and writes to the following files:
 users.txt: Stores user credentials (username, password, role).
