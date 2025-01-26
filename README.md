@@ -18,14 +18,11 @@ Once the order is placed, a bill is generated with the total amount, tax, and di
 Waitstaff or Admin can view and process payments.
 Billing information is displayed directly on the console, including taxes and discounts.
 Bill data is handled dynamically and could be saved to a file if extended.
-5. Inventory Management (Admin/Waitstaff)
-Track the quantity of items available in the restaurant's inventory (e.g., ingredients).
-Alert when stock levels are low (e.g., less than 5 items remaining).
-Inventory data is saved and loaded from inventory.txt.
+5.Exception Handling
+Handle error efficiently when the user entered incorrect username or password or when the admin search for the menu item that is not available generates a error message.
 6. File Handling
 All user data, menu items, orders, and inventory are saved in text files to ensure persistence.
 The system reads and writes to the following files:
 users.txt: Stores user credentials (username, password, role).
 menu.txt: Stores the list of menu items.
 orders.txt: Stores customer orders and their statuses.
-inventory.txt: Stores inventory items and their quantities.
