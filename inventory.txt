@@ -1,8 +1,0 @@
-Burger 50
-Pizza 30
-Pasta 40
-Coffee 100
-Tea 120
-Fries 60
-Steak 20
-Soup 25
