@@ -21,7 +21,7 @@ private:
 User users[MAX_USERS];
 MenuItem menu[MAX_MENU_ITEMS];
 int userCount = 0, menuCount = 0;
-// Helper function to load users from file
+// Help function to load users from file
 void loadUsers() {
 ifstream file("users.txt");
 if (!file) {

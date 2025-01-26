@@ -1,0 +1,37 @@
+Developer Guide
+Overview
+This document provides a detailed explanation of the system's logic, structure, and functionality to help developers understand and extend the system.
+
+Structure
+Classes and Key Components
+
+RestaurantManagementSystem Class:
+Handles core functionalities such as user authentication, menu management, and order processing.
+Private members: users, menu, userCount, menuCount.
+Public methods: authenticateUser, displayMenu, takeOrder.
+Files and Data Handling
+
+users.txt: Contains user credentials in the format username password role.
+menu.txt: Stores menu items in the format name price category.
+orders.txt: Reserved for saving customer orders (if extended).
+Code Walkthrough
+User Authentication
+
+Validates credentials from users.txt using authenticateUser.
+Matches username and password to assign the correct role (Admin or Waitstaff).
+Menu Management
+
+Admins can view and update menu items, which are loaded from menu.txt.
+Each menu item has three properties: name, price, and category.
+Order Management
+
+Waitstaff can place orders by selecting items from the menu.
+Tax (10%) and discounts (5% for orders above $100) are calculated dynamically.
+Error Handling
+
+Missing files (users.txt, menu.txt) throw runtime exceptions.
+Invalid inputs (e.g., non-numeric values for order count) are handled gracefully.
+Extending the System
+Add inventory management for menu items.
+Implement saving order details to orders.txt.
+Enhance security by encrypting users.txt data.

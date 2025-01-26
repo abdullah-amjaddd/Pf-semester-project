@@ -15,7 +15,7 @@ struct MenuItem {
     double price;
     string category;
 };
-// Restaurant Management Classclass RestaurantManagementSystem 
+// Restaurant Management Classclass RestaurantManagementSystem s
 private:
 User users[MAX_USERS];
 MenuItem menu[MAX_MENU_ITEMS];

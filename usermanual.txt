@@ -1,0 +1,34 @@
+User Manual
+Introduction
+The Restaurant Management System is designed to streamline restaurant operations with role-based functionalities for Admins and Waitstaff.
+
+System Requirements
+Platform: Windows/Linux with C++ compiler (e.g., GCC, Visual Studio).
+Files Required: users.txt, menu.txt.
+Setup Instructions
+Place the executable file and required text files (users.txt, menu.txt) in the same directory.
+Run the program using the command line or IDE.
+Login Procedure
+Enter your username and password at the prompt.
+Roles:
+Admin: Access menu management.
+Waitstaff: Handle customer orders and billing.
+Role-Specific Features
+Admin Menu:
+
+View the current menu.
+Additional features like adding/removing items can be integrated in future versions.
+Waitstaff Menu:
+
+View menu items to assist customers.
+Place orders:
+Enter the number of items.
+Provide item names (retry if unavailable).
+Review the bill summary (tax and discounts included).
+Error Messages
+Invalid Credentials:
+Ensure correct username and password from users.txt.
+File Not Found:
+Verify users.txt and menu.txt exist in the program directory.
+Menu Item Not Found:
+Ensure the item exists in menu.txt (case-sensitive).
