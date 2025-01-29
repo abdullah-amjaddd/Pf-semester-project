@@ -1,2 +1,9 @@
 admin admin123 Admin
-waitstaff wait123 Waitstaff
+waitstaff wait123 Waitstaffabdullah abd1234 Waitstaff
+hassan 54321 Admin
+hasssan 4321 Admin
+irfan 54321 Waitstaff
+abdullahamjad abd1234 waitstaff
+kashif kashif123 waitstaff
+kashifali kashif1234 Admin
+abdullahabd abd123 Waitstaff

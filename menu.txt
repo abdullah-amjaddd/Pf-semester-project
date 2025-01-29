@@ -6,3 +6,9 @@ Tea 1.99 Beverage
 Fries 2.49 FastFood
 Steak 14.99 FineDining
 Soup 4.99 Appetizer
+Steak 7.99 FastFood
+Tikka 3.19 Barbeque
+Colddrinks 0.59 Beverage
+Shakes 0.89 Beverage
+Chickenroll 1.99 Barbeque
+Broast 2.99 FastFood
